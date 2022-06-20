@@ -28,6 +28,7 @@ a {
 .portal__header {
     display: flex;
     flex-direction: column;
+    padding: 25px 0;
 }
 .portal__header--top {
     display: flex;
@@ -48,6 +49,8 @@ a {
 /* HEADER NAV*/
 .portal__header--nav {
     padding: 15px 15px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
+    border-radius: 8px;
 }
 
 .portal-nav__list {
@@ -73,10 +76,12 @@ a {
 .portal__sidebar {
     max-width: 300px;
     width: 100%;
-    padding: 0 5px;
 }
 .portal-sidebar__block {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
 }
 .portal__sidebar h3 {
     margin-bottom: 15px;
@@ -134,7 +139,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 50px;
+    gap: 40px;
 }
 .portal__excerpt {
     display: flex;
@@ -142,6 +147,9 @@ a {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
 }
 .portal__excerpt h2 {
     font-size: 28px;
@@ -159,6 +167,10 @@ a {
     flex-direction: column;
     padding: 15px;
     gap: 15px;
+}
+.last-articles {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
+    border-radius: 8px;
 }
 .last-articles__row {
     display: flex;
