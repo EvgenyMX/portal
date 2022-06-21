@@ -160,13 +160,15 @@
                         <h3>Вопрос эксперту</h3>
                         <form action="" class="portal-sidebar-question__form">
                             <input type="text" placeholder="Имя">
-                            <textarea name="" id=""  rows="3">Вопрос</textarea>
+                            <textarea name="" id=""  rows="3" placeholder="Вопрос"></textarea>
                             <input type="submit" value="Отправить">
                         </form>
                     </div>
                     <div class="portal-sidebar__coat portal-sidebar__block">
                         <h3>Герб онлайн</h3>
-                        <img src="" alt="онлайн конструктор герба">
+                        <a href="#" title="перейти в генератор гербов">
+                            <img src="./gerb.svg" alt="онлайн конструктор герба">
+                        </a>
                     </div>
                 </div>
                 <div class="portal__content">
@@ -309,26 +311,43 @@
                         </div>
                     </div>
                     <div class="portal__news-slider news-slider">
-                        <div class="news-slider__item slider-item" style="background: url() ;">
-                            <div class="slider-item__image"></div>
-                            <div class="slider-item__info">
-                                <div class="article-item__category">
-                                    <span>Записки футуриста</span>
-                                </div>
-                                <div class="article-item__title">
-                                    <span>Декрет ВЦИК о наследсвенных пошлинах</span>
+                        <div class="portal-title__block">
+                            <h3>Новости</h3>
+                        </div>
+                        <div class="news-slider__inner">
+                            <div class="news-slider__item slider-item" style="background: url() ;">
+                                <div class="slider-item__image"></div>
+                                <div class="slider-item__info">
+                                    <div class="article-item__category">
+                                        <span>Записки футуриста</span>
+                                    </div>
+                                    <div class="article-item__title">
+                                        <span>Декрет ВЦИК о наследсвенных пошлинах</span>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="news-slider__arrows">
+                            <span class="news-slider__arrows--prev">
+                                <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 37.1143L107 37.1143" stroke="#2F6E5B" stroke-width="8" stroke-miterlimit="10"></path>
+                                    <path d="M69.0961 -0.000281476C68.3064 37.3115 101.078 36.5219 106.408 37.3115" stroke="#2F6E5B" stroke-width="8" stroke-miterlimit="10"></path>
+                                    <path d="M69.0961 74.0312C68.3064 36.7194 101.078 37.5091 106.408 36.7194" stroke="#2F6E5B" stroke-width="8" stroke-miterlimit="10"></path>
+                                </svg>
+                            </span>
+                            <span class="news-slider__arrows--next">
+                                <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 37.1143L107 37.1143" stroke="#2F6E5B" stroke-width="8" stroke-miterlimit="10"></path>
+                                    <path d="M69.0961 -0.000281476C68.3064 37.3115 101.078 36.5219 106.408 37.3115" stroke="#2F6E5B" stroke-width="8" stroke-miterlimit="10"></path>
+                                    <path d="M69.0961 74.0312C68.3064 36.7194 101.078 37.5091 106.408 36.7194" stroke="#2F6E5B" stroke-width="8" stroke-miterlimit="10"></path>
+                                </svg>
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 37.1143L107 37.1143" stroke="#2F6E5B" stroke-width="8" stroke-miterlimit="10"></path>
-                <path d="M69.0961 -0.000281476C68.3064 37.3115 101.078 36.5219 106.408 37.3115" stroke="#2F6E5B" stroke-width="8" stroke-miterlimit="10"></path>
-                <path d="M69.0961 74.0312C68.3064 36.7194 101.078 37.5091 106.408 36.7194" stroke="#2F6E5B" stroke-width="8" stroke-miterlimit="10"></path>
-            </svg>
+            
         </div>
     </div>
 
