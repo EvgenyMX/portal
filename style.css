@@ -162,10 +162,28 @@ a {
 }
 /* SIDEBAR CATEGORY */
 .portal-sidebar-category__list a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     font-size: 22px;
     font-weight: 500;
     line-height: 34px;
+    color: var(--main-color);
 }
+.portal-sidebar-category__list a:hover svg  {
+    opacity: 1;
+}
+.portal-sidebar-category__list a svg {
+    transform: rotate(180deg);
+    width: 25px;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+}
+.portal-sidebar-category__list .sub-menu {
+    margin-left: 25px;
+}
+
 
 
 /* SIDEBAR QUESTION */
@@ -382,4 +400,17 @@ a {
     color: var(--main-color);
     font-weight: 700;
     font-size: 18px;
+}
+
+/* PAGINATION */
+.all-articles__pagination {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 auto;
+}
+.all-articles__pagination span{
+    color: var(--main-color);
+    font-size: 26px;
+    cursor: pointer;
 }
