@@ -142,7 +142,8 @@ a {
 .portal-nav__list {
     display: flex;
     flex-direction: row;
-    gap: 15px
+    justify-content: center;
+    gap: 30px
 }
 .portal-nav__list a {
     font-size: 20px;
