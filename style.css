@@ -76,7 +76,7 @@ a {
 }
 .portal-search input{
     position: absolute;
-    right: 100%;
+    right: 0%;
     z-index: 0;
     opacity: 0;
     width: 0;
@@ -93,7 +93,7 @@ a {
     color: var(--main-color);
 }
 .portal-search input.search-input--active {
-    right: 150%;
+    right: 100%;
     width: 250px;
     line-height: unset;
     opacity: 1;
@@ -103,6 +103,7 @@ a {
 .portal-search svg {
     width: 30px;
     cursor: pointer;
+    z-index: 1;
 }
 .portal-search svg path {
     fill: var(--main-color);
